@@ -15,7 +15,6 @@ from rasa_sdk.forms import FormAction
 
 
 
-
 class ActionHelloWorld(Action):
 
     def name(self) -> Text:
