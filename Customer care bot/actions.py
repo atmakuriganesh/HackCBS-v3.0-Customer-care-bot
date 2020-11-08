@@ -13,10 +13,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction
 
-details = {
-    'ashish': '+91 8209829808',
-    'innovate': '+91 9413995563'
-}
+
 
 
 class ActionHelloWorld(Action):
